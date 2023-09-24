@@ -4,7 +4,7 @@ from fastapi.middleware.cors import CORSMiddleware
 #App object
 app = FastAPI()
 
-from databse import(
+from database import(
     fetch_one_todo,
     fetch_all_todos,
     create_todo,
